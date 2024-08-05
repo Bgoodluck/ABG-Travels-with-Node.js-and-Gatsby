@@ -185,7 +185,7 @@ function Testimonials() {
             />
             <h3>Aisat Buhari</h3>
             <p>
-              This was an experience so unique and wonderful! Hoping to make it a yearly occurrence as it was so relaxing and fun filled.
+              Wow! This was an experience so unique and wonderful! Hoping to make it a yearly occurrence as it was so relaxing and fun filled.
             </p>
           </Testimonial>
         </ColumnOne>
