@@ -1,0 +1,26 @@
+[
+    {
+        "img": "../assets/images/lagos-1.jpg",
+        "alt": "Roundabout Yaba",
+        "name": "Roundabout in Yaba",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/abuja-1.jpg",
+        "alt": "Central Mosque Abuja",
+        "name": "Central Mosque Abuja",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/nigeria-1.jpg",
+        "alt": "Nigeria",
+        "name": "Nigeria",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/unity-1.jpg",
+        "alt": "Unity",
+        "name": "Unity",
+        "button": "View Destination"
+    }
+]

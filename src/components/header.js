@@ -9,7 +9,7 @@ import { Button } from "./Button"
 const Header = () => {
   return (
     <Nav>
-      <NavLink to="/">EXPLORIX</NavLink>
+      <NavLink to="/"><h1>ABG Travels & Tours</h1></NavLink>
       <Bars />
       <NavMenu>
           {menuData.map((item, index)=> (
@@ -19,7 +19,7 @@ const Header = () => {
           ))}
       </NavMenu>
       <NavBtn>
-        <Button primary="true" round="true" to="/trips">Book a Flight</Button>
+        <Button primary="true" round="true" to="/trips">Book an experience</Button>
       </NavBtn>
     </Nav>
   )
@@ -34,6 +34,9 @@ justify-content: space-between;
 padding: 0.5rem calc((100vw - 1300px) / 2);
 z-index: 100;
 position: relative;
+position: sticky;
+top: 0;
+right: 0;
 `
 
 const NavLink = styled(Link)`
@@ -44,6 +47,12 @@ text-decoration: none;
 padding: 0 1rem;
 height: 100%;
 cursor: pointer;
+
+h1 {
+&:hover {
+color: #0000FF;
+}
+}
 `
 
 const Bars = styled(FaBars)`
